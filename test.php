@@ -5,6 +5,10 @@
  * Date: 10/08/2015
  * Time: 14:14
  */
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(-1);
+
 $servername = "eu-cdbr-azure-north-d.cloudapp.net";
 $username = "b99256e599d9fc";
 $password = "64c23a04";
